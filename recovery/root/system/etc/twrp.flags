@@ -13,6 +13,9 @@
 # Data/Metadata
 /metadata              f2fs    /dev/block/bootdevice/by-name/metadata                             flags=display="Metadata";backup=1;wrappedkey
 
+# System (For GSI)
+/system_image          emmc    /dev/block/mapper/system					          flags=slotselect
+
 # Other partitions
 /cust                  erofs   /dev/block/bootdevice/by-name/cust                                 flags=display="Cust";backup=1;flashimg=1
 /cache                 ext4    /dev/block/bootdevice/by-name/rescue                               flags=display="Cache";wipeingui;wipeduringfactoryreset
