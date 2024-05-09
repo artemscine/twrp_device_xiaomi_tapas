@@ -17,7 +17,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/chickendrop89/orangefox_device_xiaomi_tapas'
+        default: 'https://github.com/artemscine/twrp_device_xiaomi_tapas'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
