@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit from device configuration
 $(call inherit-product, device/xiaomi/tapas/device.mk)
 
+# Inherit from device configuration
+$(call inherit-product, device/xiaomi/tapas/fox_tapas.mk)
+
 # Inherit from TWRP common configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
