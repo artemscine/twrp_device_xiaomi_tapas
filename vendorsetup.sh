@@ -31,6 +31,9 @@
 
  # Flashlight & LEDs
  export OF_FL_PATH1="/system/etc/flashlight"
+ 
+ # Fox settings files location
+ export FOX_SETTINGS_ROOT_DIRECTORY="/persist/OFRP"
 
  # Remove the loop block errors after flashing ZIPs (Workaround)
  export OF_LOOP_DEVICE_ERRORS_TO_LOG=1
