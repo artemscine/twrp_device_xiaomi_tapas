@@ -26,9 +26,6 @@
  # Ensure that /sdcard is bind-unmounted before f2fs data repair or format
  export OF_UNBIND_SDCARD_F2FS=1
 
- # Store settings at /data/recovery instead of internal storage
- export FOX_USE_DATA_RECOVERY_FOR_SETTINGS=1
-
  # Flashlight & LEDs
  export OF_FL_PATH1="/system/etc/flashlight"
  
